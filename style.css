@@ -1,14 +1,12 @@
 h1 {
     color: lightslategray;
     text-transform: uppercase;
-
 }
 body {
     text-align: center;
     background: lightgray;
     display: flex;
     justify-content: center;
-
 }
 
 .balloons{
@@ -20,6 +18,7 @@ body {
     border: 0px;
     display: inline-block;
 }
+
 #whenPopped {
     display: none;
     font-size: 30px;

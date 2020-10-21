@@ -10,7 +10,6 @@ balloons.forEach((element) => {
         event.target.textContent = "POP!";
         popped++;
         checkAllPopped();
-        
     }, once)
 })
 
