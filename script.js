@@ -7,10 +7,8 @@ const once = {
 balloons.forEach((element) => {
     element.addEventListener('mouseover', (event) =>{
         event.target.style.backgroundColor = "lightgrey";
-        event.target.textContent = "POP!"
+        event.target.textContent = "POP!";
         popped++;
-        //event.target.classList.add("pop");
-        //removeEvent(event);
         checkAllPopped();
         
     }, once)
